@@ -1,0 +1,170 @@
+@import 'https://fonts.googleapis.com/css?family=Press+Start+2P';
+* {
+ font-family:'press start 2p',
+ Roboto,
+ sans-serif
+}
+
+
+
+@-webkit-keyframes fadeIn {
+ from {
+  opacity:0
+ }
+ to {
+  opacity:1
+ }
+}
+
+
+
+@keyframes fadeIn {
+ from {
+  opacity:0
+ }
+ to {
+  opacity:1
+ }
+}
+
+
+body{
+    background: rgb(175, 174, 174);
+}
+
+.Logo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 1000px;
+}
+
+.top{
+    position: absolute;
+    background: rgb(102, 102, 102);
+    width: 1200px;
+    height: 70px;
+    left: 150px;
+    top: 20px;
+    border-radius: 20px;
+}
+
+.Gla{
+    position: absolute;
+    background: rgb(255, 99, 120);
+    top: 0px;
+    width: 200px;
+    height: 70px;
+    left: 150px;
+    border-radius: 0px; 
+    opacity: 0;
+}
+
+.Gla:hover{
+    opacity: 1;
+    transition: 0.25s;
+}
+
+.Glate{
+    position: absolute;
+    font-size: 14pt;
+    left: 185px;
+    top: 8px;
+}
+
+.Info{
+    position: absolute;
+    background: rgb(255, 99, 120);
+    top: 0px;
+    width: 200px;
+    height: 70px;
+    left: 350px;
+    border-radius: 0px; 
+    opacity: 0;
+}
+
+.Info:hover{
+    opacity: 1;
+    transition: 0.25s;  
+}
+
+.InfoTe{
+    position: absolute;
+    font-size: 14pt;
+    left: 358px;
+    top: 8px; 
+}
+
+.Rules{
+    position: absolute;
+    background: rgb(255, 99, 120);
+    top: 0px;
+    width: 200px;
+    height: 70px;
+    left: 550px;
+    border-radius: 0px; 
+    opacity: 0;
+}
+
+.Rules:hover{
+    opacity: 1;
+    transition: 0.25s;  
+}
+
+.RulesTe{
+    position: absolute;
+    font-size: 14pt;
+    left: 585px;
+    top: 8px;  
+}
+
+.Users{
+    position: absolute;
+    background: rgb(255, 99, 120);
+    top: 0px;
+    width: 200px;
+    height: 70px;
+    left: 750px;
+    border-radius: 0px; 
+    opacity: 0; 
+}
+
+.Users:hover{
+    opacity: 1;
+    transition: 0.25s;   
+}
+
+.UsersTe{
+    position: absolute;
+    font-size: 14pt;
+    left: 768px;
+    top: 8px;    
+}
+
+.gif{
+    position: fixed; z-index: -1;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%; 
+}
+
+.gif2{
+    position: fixed; z-index: -2;
+    opacity: 0;
+}
+
+@media(max-width: 1000px){
+    .gif{
+        position: fixed; z-index: -2;
+        opacity: 0;
+    } 
+    .gif2{
+        position: fixed; z-index: -1;
+        opacity: 1;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%; 
+    }
+}
