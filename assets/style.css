@@ -1,0 +1,340 @@
+@import 'https://fonts.googleapis.com/css?family=Press+Start+2P';
+* {
+ font-family:'press start 2p',
+ Roboto,
+ sans-serif
+}
+
+
+
+@-webkit-keyframes fadeIn {
+ from {
+  opacity:0
+ }
+ to {
+  opacity:1
+ }
+}
+
+
+
+@keyframes fadeIn {
+ from {
+  opacity:0
+ }
+ to {
+  opacity:1
+ }
+}
+
+a{
+    text-decoration:none ;
+    color: black;
+}
+
+body{
+    background: rgb(175, 174, 174);
+}
+
+.Logo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 1000px;
+}
+
+.top{
+    position: absolute;
+    background: rgb(102, 102, 102);
+    width: 1200px;
+    height: 70px;
+    left: 150px;
+    top: 20px;
+    border-radius: 20px;
+}
+
+.Gla{
+    position: absolute;
+    background: rgb(255, 99, 120);
+    top: 0px;
+    width: 200px;
+    height: 70px;
+    left: 150px;
+    border-radius: 0px; 
+    opacity: 1;
+}
+
+.Gla:hover{
+    opacity: 1;
+    transition: 0.25s;
+}
+
+.Glate{
+    position: absolute;
+    font-size: 14pt;
+    left: 185px;
+    top: 8px;
+}
+
+.Info{
+    position: absolute;
+    background: rgb(255, 99, 120);
+    top: 0px;
+    width: 200px;
+    height: 70px;
+    left: 350px;
+    border-radius: 0px; 
+    opacity: 0;
+}
+
+.Info:hover{
+    opacity: 1;
+    transition: 0.25s;  
+}
+
+.InfoTe{
+    position: absolute;
+    font-size: 14pt;
+    left: 358px;
+    top: 8px; 
+}
+
+.Rules{
+    position: absolute;
+    background: rgb(255, 99, 120);
+    top: 0px;
+    width: 200px;
+    height: 70px;
+    left: 550px;
+    border-radius: 0px; 
+    opacity: 0;
+}
+
+.Rules:hover{
+    opacity: 1;
+    transition: 0.25s;  
+}
+
+.RulesTe{
+    position: absolute;
+    font-size: 14pt;
+    left: 585px;
+    top: 8px;  
+}
+
+.Users{
+    position: absolute;
+    background: rgb(255, 99, 120);
+    top: 0px;
+    width: 200px;
+    height: 70px;
+    left: 750px;
+    border-radius: 0px; 
+    opacity: 0; 
+}
+
+.Users:hover{
+    opacity: 1;
+    transition: 0.25s;   
+}
+
+.UsersTe{
+    position: absolute;
+    font-size: 14pt;
+    left: 768px;
+    top: 8px;    
+}
+
+.gif{
+    position: fixed; z-index: -1;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%; 
+}
+
+.gif2{
+    position: fixed; z-index: -2;
+    opacity: 0;
+}
+
+.main{
+    position: absolute;
+    left: 0px;
+    top: 180px;
+    background: rgba(0, 0, 0, 0.548);
+    width: 1200px;
+    height: 1200px;
+}
+
+.news1{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    background: rgba(0, 0, 0, 0.548);
+    width: 1100px;
+    height: 400px; 
+}
+
+.new1H2{
+    position: absolute;
+    left: 100px;
+    color: darkred;
+}
+
+
+.news1Te{
+    position: absolute;
+    left: 25px;
+    font-size: 10pt;
+    color: rgb(13, 0, 70);
+    top: 50px;
+}
+
+#main p{
+    display: none;
+}
+
+#main:target p{
+    display: block;
+}
+
+#main:target + #click{
+    display: block;
+}
+
+#main:target
+
+
+@media (max-width:1000px){
+    .gif{
+        position: fixed; z-index: -2;
+        opacity: 0;
+    }
+    
+    .gif2{
+        position: fixed; z-index: -1;
+        top: 0px;
+        opacity: 1;
+        left: 0px;
+        width: 100%;
+        height: 100%; 
+    }
+    .Logo{
+        position: absolute;
+        width: 135px;
+        height: 135px;
+        border-radius: 1000px;
+    }
+    
+    .top{
+        position: absolute;
+        background: rgb(102, 102, 102);
+        width: 1200px;
+        height: 100px;
+        left: 150px;
+        top: 20px;
+        border-radius: 20px;
+    }
+    
+    .Gla{
+        position: absolute;
+        background: rgb(255, 99, 120);
+        top: 0px;
+        width: 200px;
+        height: 100px;
+        left: 150px;
+        border-radius: 0px; 
+        opacity: 1;
+    }
+    
+    .Gla:hover{
+        opacity: 1;
+        transition: 0.25s;
+    }
+    
+    .Glate{
+        position: absolute;
+        font-size: 14pt;
+        left: 185px;
+        top: 25px;
+    }
+    
+    .Info{
+        position: absolute;
+        background: rgb(255, 99, 120);
+        top: 0px;
+        width: 200px;
+        height: 100px;
+        left: 350px;
+        border-radius: 0px; 
+        opacity: 0;
+    }
+    
+    .Info:hover{
+        opacity: 1;
+        transition: 0.25s;  
+    }
+    
+    .InfoTe{
+        position: absolute;
+        font-size: 14pt;
+        left: 358px;
+        top: 25px; 
+    }
+    
+    .Rules{
+        position: absolute;
+        background: rgb(255, 99, 120);
+        top: 0px;
+        width: 200px;
+        height: 100px;
+        left: 550px;
+        border-radius: 0px; 
+        opacity: 0;
+    }
+    
+    .Rules:hover{
+        opacity: 1;
+        transition: 0.25s;  
+    }
+    
+    .RulesTe{
+        position: absolute;
+        font-size: 14pt;
+        left: 585px;
+        top: 25px;  
+    }
+    
+    .Users{
+        position: absolute;
+        background: rgb(255, 99, 120);
+        top: 0px;
+        width: 200px;
+        height: 100px;
+        left: 750px;
+        border-radius: 0px; 
+        opacity: 0; 
+    }
+    
+    .Users:hover{
+        opacity: 1;
+        transition: 0.25s;   
+    }
+    
+    .UsersTe{
+        position: absolute;
+        font-size: 14pt;
+        left: 768px;
+        top: 25px;    
+    }
+    .news1Te{
+        position: absolute;
+        left: 25px;
+        font-size: 13pt;
+        color: rgb(255, 255, 255);
+        top: 40px;
+        line-height: 1.5;
+    }
+    
+}
