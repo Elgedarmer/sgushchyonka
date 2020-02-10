@@ -39,7 +39,7 @@
 
 
   window.devtools.isOpen &&
-    (window.location.href = "https://www.youtube.com/watch?v=Ney2Mafxvzw"),
+    (window.location.href = "https://www.youtube.com/watch?v=PkT0PJwy8mI"),
   window.addEventListener("devtoolschange", o => {
-    window.location.href = "https://www.youtube.com/watch?v=Ney2Mafxvzw";
+    window.location.href = "https://www.youtube.com/watch?v=PkT0PJwy8mI";
   });
