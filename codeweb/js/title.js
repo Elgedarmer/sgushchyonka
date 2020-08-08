@@ -16,7 +16,7 @@ function loaded() {
 
 var x = 0;
 
-var titleText = [ "SpY", "c4tk", "Elgedarmer", "My_SqU", "Work-Hard", "Sleep less","Squshenka" ];
+var titleText = [ "СГУЩЁНКА.SG" ];
 
 function loop() {
 
